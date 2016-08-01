@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "CollectionViewController01.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    //创建窗口
+    _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    //设置背景
+    _window.backgroundColor = [UIColor whiteColor];
+    [_window makeKeyAndVisible];
+    
+  
+    CollectionViewController01 *collectionView01 = [[CollectionViewController01 alloc] init];
+    _window.rootViewController = collectionView01;
+    
+
     return YES;
 }
 

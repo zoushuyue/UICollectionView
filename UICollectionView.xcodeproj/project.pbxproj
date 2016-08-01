@@ -15,6 +15,12 @@
 		89C2295E1D4235EE00225371 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89C2295C1D4235EE00225371 /* LaunchScreen.storyboard */; };
 		89C229691D4235EE00225371 /* UICollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C229681D4235EE00225371 /* UICollectionViewTests.m */; };
 		89C229741D4235EE00225371 /* UICollectionViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C229731D4235EE00225371 /* UICollectionViewUITests.m */; };
+		89C229891D42367600225371 /* 02CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C229881D42367600225371 /* 02CollectionViewController.m */; };
+		89C2298C1D42368C00225371 /* 02CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C2298B1D42368C00225371 /* 02CollectionViewCell.m */; };
+		89C229901D4236A000225371 /* 03CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C2298E1D4236A000225371 /* 03CollectionViewCell.m */; };
+		89C229911D4236A000225371 /* 03CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89C2298F1D4236A000225371 /* 03CollectionViewCell.xib */; };
+		89C229941D4236AE00225371 /* 03CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C229931D4236AE00225371 /* 03CollectionViewController.m */; };
+		89C229981D4239E800225371 /* CollectionViewController01.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C229971D4239E800225371 /* CollectionViewController01.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,17 @@
 		89C2296F1D4235EE00225371 /* UICollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UICollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89C229731D4235EE00225371 /* UICollectionViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewUITests.m; sourceTree = "<group>"; };
 		89C229751D4235EE00225371 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89C229871D42367600225371 /* 02CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 02CollectionViewController.h; sourceTree = "<group>"; };
+		89C229881D42367600225371 /* 02CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = 02CollectionViewController.m; sourceTree = "<group>"; };
+		89C2298A1D42368C00225371 /* 02CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 02CollectionViewCell.h; sourceTree = "<group>"; };
+		89C2298B1D42368C00225371 /* 02CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = 02CollectionViewCell.m; sourceTree = "<group>"; };
+		89C2298D1D4236A000225371 /* 03CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 03CollectionViewCell.h; sourceTree = "<group>"; };
+		89C2298E1D4236A000225371 /* 03CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = 03CollectionViewCell.m; sourceTree = "<group>"; };
+		89C2298F1D4236A000225371 /* 03CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = 03CollectionViewCell.xib; sourceTree = "<group>"; };
+		89C229921D4236AE00225371 /* 03CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 03CollectionViewController.h; sourceTree = "<group>"; };
+		89C229931D4236AE00225371 /* 03CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = 03CollectionViewController.m; sourceTree = "<group>"; };
+		89C229961D4239E800225371 /* CollectionViewController01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController01.h; sourceTree = "<group>"; };
+		89C229971D4239E800225371 /* CollectionViewController01.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController01.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +118,12 @@
 		89C2294D1D4235EE00225371 /* UICollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				89C229951D4236CC00225371 /* way4 */,
+				89C229831D42362200225371 /* way3 */,
+				89C229821D42361700225371 /* way2 */,
+				89C229811D42360800225371 /* way1 */,
 				89C229511D4235EE00225371 /* AppDelegate.h */,
 				89C229521D4235EE00225371 /* AppDelegate.m */,
-				89C229541D4235EE00225371 /* ViewController.h */,
-				89C229551D4235EE00225371 /* ViewController.m */,
-				89C229571D4235EE00225371 /* Main.storyboard */,
 				89C2295A1D4235EE00225371 /* Assets.xcassets */,
 				89C2295C1D4235EE00225371 /* LaunchScreen.storyboard */,
 				89C2295F1D4235EE00225371 /* Info.plist */,
@@ -138,6 +156,48 @@
 				89C229751D4235EE00225371 /* Info.plist */,
 			);
 			path = UICollectionViewUITests;
+			sourceTree = "<group>";
+		};
+		89C229811D42360800225371 /* way1 */ = {
+			isa = PBXGroup;
+			children = (
+				89C229961D4239E800225371 /* CollectionViewController01.h */,
+				89C229971D4239E800225371 /* CollectionViewController01.m */,
+			);
+			name = way1;
+			sourceTree = "<group>";
+		};
+		89C229821D42361700225371 /* way2 */ = {
+			isa = PBXGroup;
+			children = (
+				89C229871D42367600225371 /* 02CollectionViewController.h */,
+				89C229881D42367600225371 /* 02CollectionViewController.m */,
+				89C2298A1D42368C00225371 /* 02CollectionViewCell.h */,
+				89C2298B1D42368C00225371 /* 02CollectionViewCell.m */,
+			);
+			name = way2;
+			sourceTree = "<group>";
+		};
+		89C229831D42362200225371 /* way3 */ = {
+			isa = PBXGroup;
+			children = (
+				89C2298D1D4236A000225371 /* 03CollectionViewCell.h */,
+				89C2298E1D4236A000225371 /* 03CollectionViewCell.m */,
+				89C2298F1D4236A000225371 /* 03CollectionViewCell.xib */,
+				89C229921D4236AE00225371 /* 03CollectionViewController.h */,
+				89C229931D4236AE00225371 /* 03CollectionViewController.m */,
+			);
+			name = way3;
+			sourceTree = "<group>";
+		};
+		89C229951D4236CC00225371 /* way4 */ = {
+			isa = PBXGroup;
+			children = (
+				89C229541D4235EE00225371 /* ViewController.h */,
+				89C229551D4235EE00225371 /* ViewController.m */,
+				89C229571D4235EE00225371 /* Main.storyboard */,
+			);
+			name = way4;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +306,7 @@
 				89C2295E1D4235EE00225371 /* LaunchScreen.storyboard in Resources */,
 				89C2295B1D4235EE00225371 /* Assets.xcassets in Resources */,
 				89C229591D4235EE00225371 /* Main.storyboard in Resources */,
+				89C229911D4236A000225371 /* 03CollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +331,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89C229901D4236A000225371 /* 03CollectionViewCell.m in Sources */,
+				89C229891D42367600225371 /* 02CollectionViewController.m in Sources */,
 				89C229561D4235EE00225371 /* ViewController.m in Sources */,
 				89C229531D4235EE00225371 /* AppDelegate.m in Sources */,
 				89C229501D4235EE00225371 /* main.m in Sources */,
+				89C229941D4236AE00225371 /* 03CollectionViewController.m in Sources */,
+				89C229981D4239E800225371 /* CollectionViewController01.m in Sources */,
+				89C2298C1D42368C00225371 /* 02CollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
